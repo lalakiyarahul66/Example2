@@ -6,7 +6,8 @@ import {
   Button,
   TouchableWithoutFeedback,
   Keyboard,
-  Alert
+  Alert,
+  Button,
 } from 'react-native';
 import { TouchableRipple, Text } from 'react-native-paper';
 
@@ -103,7 +104,7 @@ const StartGameScreen = props => {
           </View>
         </Card>
         {confirmedOutput}
-
+<Button title="Demo"></Button>
       </View>
     </TouchableWithoutFeedback>
 
